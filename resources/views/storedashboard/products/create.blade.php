@@ -430,7 +430,7 @@
         $('#adds').click(function() {
             $('#section2').append(`
         <div id="removes${id1}">
-            <label class="mt-4">الاضافات </label>
+        <label class="mt-4">الاضافات </label>
  <div class="row"   style="position: relative;">
  @foreach ($store->languages as $lang)
      <!-- For loop this div -->
