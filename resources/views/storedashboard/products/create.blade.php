@@ -258,7 +258,7 @@
                                     </div>
                                 </div>
                             @endforeach
-                            <div class="col-3">
+                            <div class="col-md-3 col-12">
                                 <div class="checkbox-inline">
                                     <span class="switch w-50 btn btns-m switch-outline switch-icon switch-primary">
                                         <label>optional</label>
@@ -322,19 +322,19 @@
                                             </div>
                                         </div>
                                     @endforeach
-                                    <div class="form-group col-2">
+                                    <div class="form-group col-md-2 col-12">
                                         <label>السعر <span class="text-danger">*</span></label>
                                         <input type="number" class="form-control " value="{{ old('extrprice') }}" name="extrprice0[]" required="required" />
                                         @error('extrprice')
                                             <p style="color:red;">{{ $message }}</p>
                                         @enderror
                                     </div>
-                                    <div class="col-2 d-flex align-items-center justify-content-center">
+                                    <div class="col-md-2 col-6 d-flex align-items-center justify-content-center">
                                         <label class="checkbox checkbox-outline checkbox-outline-2x checkbox-primary">
                                             <input type="checkbox" name="default0[]" value="1">
                                             <span class="mx-2"></span>default</label>
                                     </div>
-                                    <div class="col-2 d-flex align-items-center justify-content-center">
+                                    <div class="col-md-2 col-6 d-flex align-items-center justify-content-center">
                                         <button class="btn btn-danger remove" type="button" onclick="removec(0)">remove</button>
                                     </div>
                                 </div>
@@ -447,26 +447,26 @@
          </div>
      </div>
  @endforeach
-                <div class="col-3">
-                                    <div class="checkbox-inline">
-                                        <span class="switch btn btns-m switch-outline switch-icon switch-primary">
-                                            <label>optional</label>
-                                            <label>
-                                                <input type="checkbox" name="optional[]" value="1">
-                                                <span></span>
-                                            </label>
-                                        </span>
-                                        <span class="switch btn btns-m switch-outline switch-icon switch-primary">
-                                        <label>multichoice</label>
-                                            <label>
-                                                <input type="checkbox" name="multichoice[]" value="1">
-                                                <span></span>
-                                            </label>
-                                        </span>
-                                    </div>
-                                </div>
+                <div class="col-md-3 col-9">
+                    <div class="checkbox-inline">
+                        <span class="switch btn btns-m switch-outline switch-icon switch-primary">
+                            <label>optional</label>
+                            <label>
+                                <input type="checkbox" name="optional[]" value="1">
+                                <span></span>
+                            </label>
+                        </span>
+                        <span class="switch btn btns-m switch-outline switch-icon switch-primary">
+                        <label>multichoice</label>
+                            <label>
+                                <input type="checkbox" name="multichoice[]" value="1">
+                                <span></span>
+                            </label>
+                        </span>
+                    </div>
+                </div>
 
-                                <div class="col-1 p-0">
+                                <div class="col-md-1 col-3 p-0">
                                     <label class="nonelabel">delete</label>
                                     <button class="btn btn-sm w-100 d-block font-weight-bolder btn-light-danger" onclick="removes(${id1})">
                                         <i class="la la-trash-o"></i> Delete
@@ -511,17 +511,17 @@
          </div>
      </div>
  @endforeach
-  <div class="form-group col-2">
+  <div class="form-group col-md-2 col-12">
     <label>السعر     <span class="text-danger">*</span></label>
     <input type="number" class="form-control " value="{{ old('extrprice') }}" name="extrprice${i}[]"  required="required"/>
     @error('extrprice')
         <p style="color:red;">{{ $message }}</p>
     @enderror
    </div>
-   <div class="col-2 d-flex align-items-center justify-content-center"><label class="checkbox checkbox-outline checkbox-outline-2x checkbox-primary">
+   <div class="col-md-2 col-6 d-flex align-items-center justify-content-center"><label class="checkbox checkbox-outline checkbox-outline-2x checkbox-primary">
                                             <input type="checkbox" name="default${i}[]"  value="1">
                                             <span class="mx-2"></span>default</label></div>
-                                            <div class="col-2 d-flex align-items-center justify-content-center">
+                                            <div class="col-md-2 col-6 d-flex align-items-center justify-content-center">
                                 <button class="btn btn-danger remove" type="button" onclick="removec(${id2})">remove</button>
                             </div>
                         </div>

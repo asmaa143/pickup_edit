@@ -62,6 +62,16 @@ License: You must have a valid license purchased only from themeforest(the above
     class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed aside-enabled aside-fixed aside-minimize-hoverable page-loading">
     <!--begin::Wrapper-->
     <!--begin::Main-->
+    <div id="preloader">
+        <div id="loader">
+            {{-- <img alt="Logo" src="{{asset('assets/media/logo.png')}}"> --}}
+        </div>
+    </div>
+    <script>
+        setTimeout(function() {
+        $('#preloader').fadeOut('fast');
+    }, 3000); // <-- time in milliseconds
+    </script>
     <!--begin::Header Mobile-->
     <div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
         <!--begin::Logo-->

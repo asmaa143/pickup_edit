@@ -62,14 +62,14 @@
                     <!-- For loop this div -->
 
                     <!-- <div class="col-md-6 col-sm-12">
-                                            <div class="form-group">
-                                                <label>
-                                                    اسم المنتج
-                                                    <span class="text-danger">EN</span>
-                                                </label>
-                                                <input type="text" class="form-control" placeholder="اسم المنتج" />
-                                            </div>
-                                        </div> -->
+                                                    <div class="form-group">
+                                                        <label>
+                                                            اسم المنتج
+                                                            <span class="text-danger">EN</span>
+                                                        </label>
+                                                        <input type="text" class="form-control" placeholder="اسم المنتج" />
+                                                    </div>
+                                                </div> -->
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
@@ -173,63 +173,63 @@
                         </script>
 
                         <!-- <div class="col-md-5 col-sm-12">
-                                            <div class="form-group">
-                                                <label>
-                                                    الخصم
-                                                </label>
-                                                <input type="number" class="form-control" placeholder="الخصم" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-1 col-sm-12">
-                                            <div class="form-group">
-                                                <label for="" class="nonelabel">الخصم</label>
-                                                <select class="form-control selectpicker" title="الخصم">
-                                                    <option>%</option>
-                                                    <option>EG</option>
-                                                </select>
-                                            </div>
-                                        </div> -->
+                                                    <div class="form-group">
+                                                        <label>
+                                                            الخصم
+                                                        </label>
+                                                        <input type="number" class="form-control" placeholder="الخصم" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1 col-sm-12">
+                                                    <div class="form-group">
+                                                        <label for="" class="nonelabel">الخصم</label>
+                                                        <select class="form-control selectpicker" title="الخصم">
+                                                            <option>%</option>
+                                                            <option>EG</option>
+                                                        </select>
+                                                    </div>
+                                                </div> -->
                     </div>
 
                     <!-- <div id="kt_repeater_1">
-                                        <div class="form-group">
-                                            <div class="row">
-                                                <div data-repeater-list="" class="col-lg-12">
-                                                    <label>
-                                                        مكونات الصنف
-                                                    </label>
-                                                    <div data-repeater-item="" class="form-group row align-items-center">
-
-                                                        <div class="col-5">
+                                                <div class="form-group">
+                                                    <div class="row">
+                                                        <div data-repeater-list="" class="col-lg-12">
                                                             <label>
-                                                                <span class="text-danger">AR</span>
+                                                                مكونات الصنف
                                                             </label>
-                                                            <input type="text" class="form-control" placeholder="المكون" />
+                                                            <div data-repeater-item="" class="form-group row align-items-center">
+
+                                                                <div class="col-5">
+                                                                    <label>
+                                                                        <span class="text-danger">AR</span>
+                                                                    </label>
+                                                                    <input type="text" class="form-control" placeholder="المكون" />
+                                                                </div>
+
+                                                                <div class="col-5">
+                                                                    <label>
+                                                                        <span class="text-danger">EN</span>
+                                                                    </label>
+                                                                    <input type="text" class="form-control" placeholder="المكون" />
+                                                                </div>
+
+
+                                                                <div class="col-2">
+                                                                    <label for="" class="nonelabel">delete</label>
+                                                                    <a href="javascript:;" data-repeater-delete="" class="btn d-block btn-sm font-weight-bolder btn-light-danger">
+                                                                        <i class="la la-trash-o"></i>Delete</a>
+                                                                </div>
+                                                            </div>
                                                         </div>
-
-                                                        <div class="col-5">
-                                                            <label>
-                                                                <span class="text-danger">EN</span>
-                                                            </label>
-                                                            <input type="text" class="form-control" placeholder="المكون" />
-                                                        </div>
-
-
-                                                        <div class="col-2">
-                                                            <label for="" class="nonelabel">delete</label>
-                                                            <a href="javascript:;" data-repeater-delete="" class="btn d-block btn-sm font-weight-bolder btn-light-danger">
-                                                                <i class="la la-trash-o"></i>Delete</a>
+                                                        <div class="col-12">
+                                                            <a href="javascript:;" data-repeater-create="" class="btn btn-sm font-weight-bolder btn-light-primary">
+                                                                <i class="la la-plus"></i>أضافة مكون</a>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <a href="javascript:;" data-repeater-create="" class="btn btn-sm font-weight-bolder btn-light-primary">
-                                                        <i class="la la-plus"></i>أضافة مكون</a>
-                                                </div>
-                                            </div>
 
-                                        </div>
-                                    </div> -->
+                                                </div>
+                                            </div> -->
                 </div>
 
                 <section id="section2">
@@ -254,7 +254,7 @@
                                                 </div>
                                             </div>
                                         @endforeach
-                                        <div class="col-3">
+                                        <div class="col-md-3 col-9">
                                             {{-- <label for="" class="nonelabel">Compulsory or optional</label> --}}
                                             <div class="checkbox-inline">
                                                 <span class="switch w-50 btn btns-m switch-outline switch-icon switch-primary">
@@ -273,7 +273,7 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-1 p-0">
+                                        <div class="col-md-1 col-3 p-0">
                                             <label class="nonelabel">delete</label>
                                             <button class="btn btn-sm w-100 d-block font-weight-bolder btn-light-danger" onclick="removes({{ $key }})">
                                                 <i class="la la-trash-o"></i> Delete
@@ -287,7 +287,7 @@
 
                                 @else
                                     <div id="removes{{ $key }}">
-                                    <label class="mt-4">الاضافات </label>
+                                        <label class="mt-4">الاضافات </label>
                                         <div class="row" id="row2" style="position: relative;">
                                             @foreach ($store->languages as $lang)
                                                 <!-- For loop this div -->
@@ -304,7 +304,7 @@
                                                     </div>
                                                 </div>
                                             @endforeach
-                                            <div class="col-3">
+                                            <div class="col-md-3 col-9">
                                                 <div class="checkbox-inline">
                                                     <span class="switch w-50 btn btns-m switch-outline switch-icon switch-primary">
                                                         <label>optional</label>
@@ -322,7 +322,7 @@
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div class="col-1 p-0">
+                                            <div class="col-md-1 col-3 p-0">
                                                 <label class="nonelabel">delete</label>
                                                 <button class="btn btn-sm w-100 d-block font-weight-bolder btn-light-danger" onclick="removes({{ $key }})">
                                                     <i class="la la-trash-o"></i> Delete
@@ -354,19 +354,19 @@
                                                 </div>
                                             </div>
                                         @endforeach
-                                        <div class="form-group col-2">
+                                        <div class="form-group col-md-2 col-12">
                                             <label>السعر <span class="text-danger">*</span></label>
                                             <input type="number" class="form-control " value="{{ $de->price }}" name="extrprice{{ $key1 }}[]" required="required" />
                                             @error('extrprice')
                                                 <p style="color:red;">{{ $message }}</p>
                                             @enderror
                                         </div>
-                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                        <div class="col-md-2 col-6 d-flex align-items-center justify-content-center">
                                             <label class="checkbox checkbox-outline checkbox-outline-2x checkbox-primary">
                                                 <input type="checkbox" name="default{{ $key1 }}[]" @if ($de->default == 1) checked @endif value="1">
                                                 <span class="mx-2"></span>default</label>
                                         </div>
-                                        <div class="col-2 d-flex align-items-center justify-content-center">
+                                        <div class="col-md-2 col-6 d-flex align-items-center justify-content-center">
                                             <button class="btn btn-danger remove" type="button" onclick="removec({{ $key1 }})">remove</button>
                                         </div>
                                     </div>
@@ -376,15 +376,15 @@
 
             @endforeach
             @endif
-        </section>
+            </section>
 
-        <div class="row">
-            <div class="col-12 my-3" style="text-align: start">
-                <button class="btn btn-sm font-weight-bolder btn-light-primary p-2" id="adds">
-                    <i class="la la-plus">اضافة نوع الاختيار</i>
-                </button>
+            <div class="row">
+                <div class="col-12 my-3" style="text-align: start">
+                    <button class="btn btn-sm font-weight-bolder btn-light-primary p-2" id="adds">
+                        <i class="la la-plus">اضافة نوع الاختيار</i>
+                    </button>
+                </div>
             </div>
-        </div>
         </div>
         </div>
         <div class="card-footer">
@@ -460,13 +460,13 @@
                  <span class="text-danger"> ( {{ $lang->lang }} )</span>
              </label>
              <input type="text" class="form-control
-                                @error('extratitle-' . $lang->lang) is-invalid @enderror" name="extratitle-{{ $lang->lang }}[]" required value="{{ old('tiextratitlele-' . $lang->lang) }}" placeholder="{{ __('messages.product_' . $lang->lang) }}" />
+                                  @error('extratitle-' . $lang->lang) is-invalid @enderror" name="extratitle-{{ $lang->lang }}[]" required value="{{ old('tiextratitlele-' . $lang->lang) }}" placeholder="{{ __('messages.product_' . $lang->lang) }}" />
              @error('title-' . $lang->lang) <span class="invalid-feedback">
                  {{ $message }}</span> @enderror
          </div>
      </div>
  @endforeach
-                <div class="col-3">
+                <div class="col-md-3 col-9">
                     <div class="checkbox-inline">
                         <span class="switch w-50 btn btns-m switch-outline switch-icon switch-primary">
                             <label>optional</label>
@@ -484,7 +484,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-1 p-0">
+                <div class="col-md-1 col-3 p-0">
                     <label class="nonelabel">delete</label>
                     <button class="btn btn-sm w-100 d-block font-weight-bolder btn-light-danger" onclick="removes(${id1})">
                         <i class="la la-trash-o"></i> Delete
@@ -519,13 +519,13 @@
                  <span class="text-danger"> ( {{ $lang->lang }} )</span>
              </label>
              <input type="text" class="form-control
-                                @error('extratitledetail-' . $lang->lang) is-invalid @enderror" name="extratitledetail${i}-{{ $lang->lang }}[]" required value="{{ old('extratitledetail-' . $lang->lang) }}" placeholder="{{ __('messages.product_' . $lang->lang) }}" />
+                                  @error('extratitledetail-' . $lang->lang) is-invalid @enderror" name="extratitledetail${i}-{{ $lang->lang }}[]" required value="{{ old('extratitledetail-' . $lang->lang) }}" placeholder="{{ __('messages.product_' . $lang->lang) }}" />
              @error('title-' . $lang->lang) <span class="invalid-feedback">
                  {{ $message }}</span> @enderror
          </div>
      </div>
  @endforeach
-  <div class="form-group col-2">
+  <div class="form-group col-md-2 col-12">
     <label>السعر     <span class="text-danger">*</span></label>
     <input type="number" class="form-control " value="{{ old('extrprice') }}" name="extrprice${i}[]"  required="required"/>
     @error('extrprice')
@@ -533,13 +533,13 @@
     @enderror
    </div>
 
-        <div class="col-2 d-flex align-items-center justify-content-center">
+        <div class="col-md-2 col-6 d-flex align-items-center justify-content-center">
             <label class="checkbox checkbox-outline checkbox-outline-2x checkbox-primary">
                 <input type="checkbox" name="default${i}[]" value="1">
                 <span class="mx-2"></span>default</label>
         </div>
 
-    <div class="col-2 d-flex align-items-center justify-content-center">
+    <div class="col-md-2 col-6 d-flex align-items-center justify-content-center">
         <button class="btn btn-danger remove" type="button" onclick="removec(${id2})">remove</button>
     </div>
 </div>`);

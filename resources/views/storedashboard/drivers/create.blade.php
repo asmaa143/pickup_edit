@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="card-body">
-         
+
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <div class="form-group">
@@ -36,14 +36,24 @@
                 <div class="col-md-4 col-sm-12">
                     <div class="form-group">
                         <label>
+                           {{__('messages.password')}}
+                        </label>
+                        <input type="password" name="password" value="{{old('password')}}" required class="form-control"
+                        placeholder="{{__('messages.password')}}">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="form-group">
+                        <label>
                            {{__('messages.phone')}}
                         </label>
-                        <input type="number" name="phone" value="{{old('phone')}}" 
+                        <input type="number" name="phone" value="{{old('phone')}}"
                         class="form-control  @error('phone') is-invalid @enderror"  required placeholder="{{__('messages.phone')}}">
                         @error('phone') <span class="invalid-feedback">
                             {{ $message }}</span> @enderror
                     </div>
-                </div> <div class="col-md-6 col-sm-12">
+                </div>
+                <div class="col-md-4 col-sm-12">
                     <div class="form-group">
                         <label>
                            {{__("messages.branches")}}
@@ -55,7 +65,7 @@
                             @endforeach
                         </select>
                     </div>
-                </div>  <div class="col-md-6 col-sm-12">
+                </div>  <div class="col-md-4 col-sm-12">
                     <div class="form-group">
                         <label>
                            {{__("messages.workshift")}}
@@ -67,17 +77,9 @@
                             @endforeach
                         </select>
                     </div>
-                </div> 
-                <div class="col-md-4 col-sm-12">
-                    <div class="form-group">
-                        <label>
-                           {{__('messages.password')}}
-                        </label>
-                        <input type="password" name="password" value="{{old('password')}}" required class="form-control" 
-                        placeholder="{{__('messages.password')}}">
-                    </div>
                 </div>
             </div>
+        </div>
 
             <div class="card-footer">
                 <button type="submit" class="btn btn-primary btn-md text-uppercase font-weight-bold chat-send py-2 px-6">حفظ</button>
